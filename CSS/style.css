@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/*font-family: "Open Sans", sans-serif;*/
+
+/*#7D0A0A marron
+#BF3131 rojo
+#EAD196 beige*/
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Tipo de fuente*/
+html{
+    font-family:"Open Sans", sans-serif;
+    font-size: 62.5%;
+}
+
+/*Color de fondo*/
+body {
+    background-color: #EAD196;
+}
+
+/*color y tamaños de fuentes*/
+h1{
+    color: #7D0A0A;
+    font-size: 4rem;
+}
+
+p{
+    color: #BF3131;
+    font-size: 2rem;
+}
+
+h2{
+    color:#7D0A0A;
+    font-size: 3rem;
+    
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+
+/*lista de menu de navegacion*/
+header{
+    background-color: #7D0A0A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+header ul{
+    display: flex;
+    color: #7D0A0A;
+    list-style: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    
+}
+
+ /*margen del texto*/
+.main{
+    margin-left: 10px;
+}
+.navbar{
+    
+    width: 60%;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.menu a{
+    color: #EAD196 ;
+}
+
+
+
+/*CONTACTANOS*/
+
+.titulo-contactanos{
+    text-align: center;
+}
+
+.presentacion-contactanos{
+    margin: 20px;
+}
+
+/* MI CUENTA*/
+.form-mi-cuenta{
+    margin: 20px;
+}
+
+.margen-al-medio{
+    text-align: center;
+}
+
+.mc-navbar{
+    background-color: #7D0A0A;
+}
+
+.mc-navbar a{
+    color: #EAD196;
+    text-decoration: none;
+}
+
+.custom-toggler{
+    border-color: white;
+}
+.navbar-toggler-icon{
+    border-color: white;
+}
+
+/*ubicacion "Sobre Nosotros"
+.margen-al-medio{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.parrafo-sn{
+    margin: 20px;
+}*/
+
+/*ubicacion "nuestros productos"*/
+
+/*Sobre nosotros - Grid*/
+.contenedor-grid img{
+    width: 80%;
+    height: 80%;
+    box-shadow: -1px 8px 42px 0px rgba(0,0,0,0.74);
+    border-radius: 8px
+}
+
+.contenedor-grid{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "img1 texto1 img2"
+    "img3 texto2 img2"
+    "img3 texto3 texto3";
+    grid-template-columns: 25% 35% 40%;
+    grid-template-rows: 200px 250px 200px 150px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.grid-titulo{
+    grid-area: titulo;
+}
+
+.grid-texto-1{
+    grid-area: texto1;
+}
+
+.grid-texto-2{
+    grid-area: texto2;
+}
+
+.grid-texto-3{
+    grid-area: texto3;
+}
+
+
+.grid-img-1{
+    grid-area: img1;
+}
+
+
+.grid-img-2{
+    grid-area: img2;
+}
+
+
+.grid-img-3{
+    grid-area: img3;
+}
+
+
+/*titulos Nuestros productor*/
+.humor{
+    text-align: center;
+}
+.infantil{
+    text-align: center;
+    margin: 30px;
+}
+.romance{
+    text-align: center;
+    margin: 30px;
+}
+.terror{
+    text-align: center;
+    margin: 30px;
+}
+
+
+/*ubicacion titulos index*/
+.titulo-principal{
+    text-align: center;
+}
+.lo-mas-vendido{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.venta-libros{
+    font-weight: bold;
+    margin: 20px;
+}
+
+/*imagen del logo principal*/
+.logo{
+    width: 60px;
+    margin: 5px;
+}
+
+/*logo del texto principal index*/
+.presentacion{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.logo-texto-index{
+    width: 120px;
+    height: auto;
+
+}
+
+/* index - lo mas vendido*/
+.libros{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*ubicacion titulo "nuestros productos"*/
+.titulo-categorias{
+    text-align: center;
+    margin: 30px;
+}
+
+/*imagenes y texto de NUESTROS PRODUCTOS*/
+.contenedor-productos {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    flex-wrap: wrap; 
+    margin: 20px 0;
+}
+
+.producto {
+    text-align: center;
+    max-width: 200px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+
+
+/*imagenes*/
+img{
+    width: 300px;
+    height: auto;
+}
+
+
+
+/*letra de formularios "mi cuenta"*/
+form label {
+    font-size: 18px; 
+}
+form input {
+    font-size: 16px; 
+}
+
+
+/*Footer*/
+.footer{
+    margin: 20px;
+}
+
+
+.color-negro{
+    color: black;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/*tamaño logos fb, ig, x*/
+a img{
+    width: 50px;
+    height: auto;
+}
+
+/*tamaño logo wsp*/
+.logo-wsp{
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+
+/*Responsive*/
+
+/*mobile*/
+@media (max-width:480px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    /*sobre nosotros*/
+    .contenedor-grid{
+        grid-template-areas: 
+        "titulo"
+        "img1"
+        "texto1"
+        "texto2"
+        "img3"
+        "texto3";
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 200px repeat(2,250px) 200px;
+    }
+    .grid-img-2{
+        display: none;
+    }
+
+}
