@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   background-color: #7D0A0A;
   display: flex;
@@ -229,13 +230,12 @@ header .navbar-toggler-icon {
   height: auto;
   border-radius: 8px;
 }
-.main .contenedor-grid img {
-  width: 80%;
-  height: 80%;
-  box-shadow: -1px 8px 42px 0px rgba(0, 0, 0, 0.74);
-  border-radius: 8px;
+
+.main {
+  margin-left: 10px;
 }
-.main .contenedor-grid {
+
+.contenedor-grid {
   display: grid;
   grid-template-areas: "titulo titulo titulo" "img1 texto1 img2" "img3 texto2 img2" "img3 texto3 texto3";
   grid-template-columns: 25% 35% 40%;
@@ -244,25 +244,39 @@ header .navbar-toggler-icon {
   justify-items: center;
   align-items: center;
 }
-.main .grid-titulo {
+
+ç .contenedor-grid img {
+  width: 80%;
+  height: 80%;
+  box-shadow: -1px 8px 42px 0px rgba(0, 0, 0, 0.74);
+  border-radius: 8px;
+}
+
+.grid-titulo {
   grid-area: titulo;
 }
-.main .grid-texto-1 {
+
+.grid-texto-1 {
   grid-area: texto1;
 }
-.main .grid-texto-2 {
+
+.grid-texto-2 {
   grid-area: texto2;
 }
-.main .grid-texto-3 {
+
+.grid-texto-3 {
   grid-area: texto3;
 }
-.main .grid-img-1 {
+
+.grid-img-1 {
   grid-area: img1;
 }
-.main .grid-img-2 {
+
+.grid-img-2 {
   grid-area: img2;
 }
-.main .grid-img-3 {
+
+.grid-img-3 {
   grid-area: img3;
 }
 

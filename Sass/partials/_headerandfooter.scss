@@ -1,5 +1,5 @@
 header{
-    background-color: #7D0A0A;
+    background-color: $marron;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,7 +16,7 @@ header{
     }
     header ul{
     display: flex;
-    color: #7D0A0A;
+    color: $marron;
     list-style: none;
     font-size: 16px;
     text-transform: uppercase;
@@ -41,7 +41,7 @@ header{
         list-style: none;
     }
     .menu a{
-        color: #EAD196 ;
+        color: $beige;
     }
     .logo{
         width: 60px;
@@ -54,7 +54,7 @@ footer{
         margin: 20px;
     }
     p{
-        color: #BF3131;
+        color: $rojo;
         font-size: 2rem;
         .color-negro{
             color: black;
@@ -62,7 +62,7 @@ footer{
     }
     div{
         p{
-        color: #BF3131;
+        color: $rojo;
         font-size: 2rem;
             .color-negro{
                 color: black;
