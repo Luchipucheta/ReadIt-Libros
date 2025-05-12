@@ -1,0 +1,41 @@
+header{
+        .mc-navbar{
+            background-color: #7D0A0A;
+        }
+
+        .mc-navbar a{
+            color: #EAD196;
+            text-decoration: none;
+        }
+
+        .custom-toggler{
+            border-color: white;
+        }       
+        .navbar-toggler-icon{
+            border-color: white;
+        }
+}
+
+
+
+.main{
+    margin-left: 10px;
+    .margen-al-medio{
+        text-align: center;
+    }
+    div{
+        .form-mi-cuenta{
+            margin: 20px;
+        
+            h3{
+                font-size: 2.5rem;
+            }
+            form label {
+                font-size: 18px; 
+            }
+            form input {
+                font-size: 16px; 
+            }
+        }
+    }
+}

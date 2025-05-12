@@ -1,0 +1,23 @@
+main{
+    .main{
+        margin-left: 10px;
+    }
+    h1{
+        .titulo-contactanos{
+            text-align: center;
+        }
+    }
+    section{
+        .presentacion-contactanos{
+            margin: 20px;
+        }
+        h2{
+            color:#7D0A0A;
+            font-size: 3rem;
+        }
+        p{
+            color: #BF3131;
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+html{
+    font-family:"Open Sans", sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #EAD196;
+    .main{
+    margin-left: 10px;
+    }
+
+    section{
+        h1{
+            color: #7D0A0A;
+            font-size: 4rem;
+            .titulo-principal{
+                    text-align: center;
+            }
+        }
+        p{
+            color: #BF3131;
+            font-size: 2rem;
+            .venta-libros{
+                font-weight: bold;
+                margin: 20px;
+            }
+        }
+
+    }
+    section{
+        .presentacion{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        p{
+        color: #BF3131;
+        font-size: 2rem;
+        }
+        .logo-texto-index{
+            width: 120px;
+            height: auto;
+        }
+    }
+    section{
+        h2{
+            color:#7D0A0A;
+            font-size: 3rem;
+            .lo-mas-vendido{
+                text-align: center;
+                margin: 30px 0;
+            } 
+        }
+        div{
+            .libros{
+                display: flex;
+                justify-content: space-around;
+            }
+            div{
+                h3{
+                font-size: 2.5rem;
+                    p{
+                        color: #BF3131;
+                        font-size: 2rem;
+                    }
+                    img{
+                        width: 300px;
+                        height: auto;
+                        }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,302 @@
+header {
+  background-color: #7D0A0A;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+header .navbar {
+  width: 60%;
+  margin-right: 10px;
+}
+header .navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+header header ul {
+  display: flex;
+  color: #7D0A0A;
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+header .navbar li {
+  margin: 0 15px;
+}
+header .navbar a {
+  text-decoration: none;
+  padding: 15px 20px;
+}
+header .menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header .menu a {
+  color: #EAD196;
+}
+header .logo {
+  width: 60px;
+  margin: 5px;
+}
+
+footer .footer {
+  margin: 20px;
+}
+footer p {
+  color: #BF3131;
+  font-size: 2rem;
+}
+footer p .color-negro {
+  color: black;
+}
+footer div p {
+  color: #BF3131;
+  font-size: 2rem;
+}
+footer div p .color-negro {
+  color: black;
+}
+footer div p a img {
+  width: 50px;
+  height: auto;
+}
+footer a img .logo-wsp {
+  width: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+
+main .main {
+  margin-left: 10px;
+}
+main h1 .titulo-contactanos {
+  text-align: center;
+}
+main section .presentacion-contactanos {
+  margin: 20px;
+}
+main section h2 {
+  color: #7D0A0A;
+  font-size: 3rem;
+}
+main section p {
+  color: #BF3131;
+  font-size: 2rem;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #EAD196;
+}
+body .main {
+  margin-left: 10px;
+}
+body section h1 {
+  color: #7D0A0A;
+  font-size: 4rem;
+}
+body section h1 .titulo-principal {
+  text-align: center;
+}
+body section p {
+  color: #BF3131;
+  font-size: 2rem;
+}
+body section p .venta-libros {
+  font-weight: bold;
+  margin: 20px;
+}
+body section .presentacion {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+body section p {
+  color: #BF3131;
+  font-size: 2rem;
+}
+body section .logo-texto-index {
+  width: 120px;
+  height: auto;
+}
+body section h2 {
+  color: #7D0A0A;
+  font-size: 3rem;
+}
+body section h2 .lo-mas-vendido {
+  text-align: center;
+  margin: 30px 0;
+}
+body section div .libros {
+  display: flex;
+  justify-content: space-around;
+}
+body section div div h3 {
+  font-size: 2.5rem;
+}
+body section div div h3 p {
+  color: #BF3131;
+  font-size: 2rem;
+}
+body section div div h3 img {
+  width: 300px;
+  height: auto;
+}
+
+header .mc-navbar {
+  background-color: #7D0A0A;
+}
+header .mc-navbar a {
+  color: #EAD196;
+  text-decoration: none;
+}
+header .custom-toggler {
+  border-color: white;
+}
+header .navbar-toggler-icon {
+  border-color: white;
+}
+
+.main {
+  margin-left: 10px;
+}
+.main .margen-al-medio {
+  text-align: center;
+}
+.main div .form-mi-cuenta {
+  margin: 20px;
+}
+.main div .form-mi-cuenta h3 {
+  font-size: 2.5rem;
+}
+.main div .form-mi-cuenta form label {
+  font-size: 18px;
+}
+.main div .form-mi-cuenta form input {
+  font-size: 16px;
+}
+
+.main {
+  margin-left: 10px;
+}
+.main .titulo-categorias {
+  text-align: center;
+  margin: 30px;
+}
+.main .humor {
+  text-align: center;
+}
+.main .infantil {
+  text-align: center;
+  margin: 30px;
+}
+.main .romance {
+  text-align: center;
+  margin: 30px;
+}
+.main .terror {
+  text-align: center;
+  margin: 30px;
+}
+.main .contenedor-productos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.main .producto {
+  text-align: center;
+  max-width: 200px;
+}
+.main .producto h3 {
+  font-size: 2.5rem;
+}
+.main .producto p {
+  color: #BF3131;
+  font-size: 2rem;
+}
+.main .producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.main .contenedor-grid img {
+  width: 80%;
+  height: 80%;
+  box-shadow: -1px 8px 42px 0px rgba(0, 0, 0, 0.74);
+  border-radius: 8px;
+}
+.main .contenedor-grid {
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "img1 texto1 img2" "img3 texto2 img2" "img3 texto3 texto3";
+  grid-template-columns: 25% 35% 40%;
+  grid-template-rows: 200px 250px 200px 150px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.main .grid-titulo {
+  grid-area: titulo;
+}
+.main .grid-texto-1 {
+  grid-area: texto1;
+}
+.main .grid-texto-2 {
+  grid-area: texto2;
+}
+.main .grid-texto-3 {
+  grid-area: texto3;
+}
+.main .grid-img-1 {
+  grid-area: img1;
+}
+.main .grid-img-2 {
+  grid-area: img2;
+}
+.main .grid-img-3 {
+  grid-area: img3;
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .navbar {
+    width: 100%;
+    margin: 0;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  /*sobre nosotros*/
+  .contenedor-grid {
+    grid-template-areas: "titulo" "img1" "texto1" "texto2" "img3" "texto3";
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 200px repeat(2, 250px) 200px;
+  }
+  .grid-img-2 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
