@@ -4,21 +4,21 @@ html{
 }
 
 body{
-    background-color: #EAD196;
+    background-color: $beige;
     .main{
     margin-left: 10px;
     }
 
     section{
         h1{
-            color: #7D0A0A;
+            color: $rojo;
             font-size: 4rem;
             .titulo-principal{
                     text-align: center;
             }
         }
         p{
-            color: #BF3131;
+            color: $rojo;
             font-size: 2rem;
             .venta-libros{
                 font-weight: bold;
@@ -34,7 +34,7 @@ body{
             padding: 20px;
         }
         p{
-        color: #BF3131;
+        color: $rojo;
         font-size: 2rem;
         }
         .logo-texto-index{
@@ -44,7 +44,7 @@ body{
     }
     section{
         h2{
-            color:#7D0A0A;
+            color:$rojo;
             font-size: 3rem;
             .lo-mas-vendido{
                 text-align: center;
@@ -60,7 +60,7 @@ body{
                 h3{
                 font-size: 2.5rem;
                     p{
-                        color: #BF3131;
+                        color: $rojo;
                         font-size: 2rem;
                     }
                     img{
