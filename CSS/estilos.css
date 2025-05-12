@@ -195,19 +195,16 @@ header .navbar-toggler-icon {
   text-align: center;
   margin: 30px;
 }
-.main .humor {
+.main .humor, .main .producto, .main .terror, .main .romance, .main .infantil {
   text-align: center;
 }
 .main .infantil {
-  text-align: center;
   margin: 30px;
 }
 .main .romance {
-  text-align: center;
   margin: 30px;
 }
 .main .terror {
-  text-align: center;
   margin: 30px;
 }
 .main .contenedor-productos {
@@ -218,7 +215,6 @@ header .navbar-toggler-icon {
   margin: 20px 0;
 }
 .main .producto {
-  text-align: center;
   max-width: 200px;
 }
 .main .producto h3 {
