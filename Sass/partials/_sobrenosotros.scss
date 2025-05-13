@@ -1,3 +1,15 @@
+html {
+  font-size: 62.5%;
+  font-family: $fuente;
+}
+
+body {
+  background-color: $beige;
+  margin: 0;
+  padding: 0;
+}
+
+
 .main{
     margin-left: 10px;
 }
@@ -15,7 +27,19 @@
     justify-items: center;
     align-items: center;   
 }
-ç
+
+h1.grid-titulo {
+    grid-area: titulo;
+    font-size: 4rem;
+    color: $rojo;
+}
+
+p {
+    font-size: 1.6rem;
+    color: $gris;
+    padding: 1rem;
+}
+
 
 .contenedor-grid img{
     width: 80%;
@@ -54,4 +78,11 @@
 
 .grid-img-3{
     grid-area: img3;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    box-shadow: -1px 8px 42px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
 }
