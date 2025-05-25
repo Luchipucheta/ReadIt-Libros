@@ -50,38 +50,30 @@ header{
 }
 
 footer{
-    .footer{
-        margin: 20px;
-    }
+    margin: 20px;
     p{
         color: $rojo;
         font-size: 2rem;
-        .color-negro{
-            color: black;
-        }
     }
+
     div{
         p{
         color: $rojo;
         font-size: 2rem;
-            .color-negro{
-                color: black;
-            }
-            a img{
-                width: 50px;
-                height: auto;
-            }
+        }   
+        a img{
+            width: 50px;
+            height: auto;
         }
     }
-    a{
-        img{
-            .logo-wsp{
-                width: 50px;
-                position: fixed;
-                bottom: 50px;
-                right: 20px;
-            }
-        }
-    }                        
+    a img.logo-wsp{
+        width: 50px;
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+    }
+    .color-negro {
+        color: black;
+    }                              
 
 }    

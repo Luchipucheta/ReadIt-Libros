@@ -1,4 +1,3 @@
-@charset "UTF-8";
 header {
   background-color: #7D0A0A;
   display: flex;
@@ -47,32 +46,29 @@ header .logo {
   margin: 5px;
 }
 
-footer .footer {
+footer {
   margin: 20px;
 }
 footer p {
   color: #BF3131;
   font-size: 2rem;
 }
-footer p .color-negro {
-  color: black;
-}
 footer div p {
   color: #BF3131;
   font-size: 2rem;
 }
-footer div p .color-negro {
-  color: black;
-}
-footer div p a img {
+footer div a img {
   width: 50px;
   height: auto;
 }
-footer a img .logo-wsp {
+footer a img.logo-wsp {
   width: 50px;
   position: fixed;
   bottom: 50px;
   right: 20px;
+}
+footer .color-negro {
+  color: black;
 }
 
 main .main {
@@ -100,60 +96,68 @@ html {
 
 body {
   background-color: #EAD196;
+  margin-left: 0;
 }
 body .main {
   margin-left: 10px;
 }
-body section h1 {
+body section .titulo-principal {
   color: #BF3131;
   font-size: 4rem;
-}
-body section h1 .titulo-principal {
   text-align: center;
 }
-body section p {
+body section .venta-libros {
   color: #BF3131;
   font-size: 2rem;
-}
-body section p .venta-libros {
   font-weight: bold;
   margin: 20px;
+  text-align: center;
 }
 body section .presentacion {
   display: flex;
   align-items: center;
   padding: 20px;
+  gap: 20px;
 }
-body section p {
+body section .presentacion p {
   color: #BF3131;
   font-size: 2rem;
+  flex: 1;
 }
 body section .logo-texto-index {
   width: 120px;
   height: auto;
 }
-body section h2 {
+body section .lo-mas-vendido {
   color: #BF3131;
   font-size: 3rem;
-}
-body section h2 .lo-mas-vendido {
   text-align: center;
   margin: 30px 0;
 }
-body section div .libros {
+body section .libros {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
-body section div div h3 {
+body section .libros div {
+  text-align: center;
+  max-width: 200px;
+}
+body section .libros h3 {
   font-size: 2.5rem;
+  text-align: center;
 }
-body section div div h3 p {
+body section .libros p {
   color: #BF3131;
   font-size: 2rem;
 }
-body section div div h3 img {
-  width: 300px;
+body section .libros img {
+  width: 100%;
   height: auto;
+  max-width: 200px;
+  border-radius: 8px;
 }
 
 header .mc-navbar {
@@ -231,6 +235,17 @@ header .navbar-toggler-icon {
   border-radius: 8px;
 }
 
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #EAD196;
+  margin: 0;
+  padding: 0;
+}
+
 .main {
   margin-left: 10px;
 }
@@ -245,7 +260,19 @@ header .navbar-toggler-icon {
   align-items: center;
 }
 
-ç .contenedor-grid img {
+h1.grid-titulo {
+  grid-area: titulo;
+  font-size: 4rem;
+  color: #BF3131;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #BF3131;
+  padding: 1rem;
+}
+
+.contenedor-grid img {
   width: 80%;
   height: 80%;
   box-shadow: -1px 8px 42px 0px rgba(0, 0, 0, 0.74);
@@ -278,6 +305,13 @@ header .navbar-toggler-icon {
 
 .grid-img-3 {
   grid-area: img3;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  box-shadow: -1px 8px 42px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
 }
 
 @media (max-width: 480px) {

@@ -5,70 +5,77 @@ html{
 
 body{
     background-color: $beige;
-    .main{
-    margin-left: 10px;
+    margin-left: 0;
+
+    .main {
+        margin-left: 10px;
     }
 
     section{
-        h1{
-            color: $rojo;
-            font-size: 4rem;
             .titulo-principal{
-                    text-align: center;
-            }
-        }
-        p{
-            color: $rojo;
-            font-size: 2rem;
+                color: $rojo;
+                font-size: 4rem;
+                text-align: center;
+                }
+        
             .venta-libros{
+                color: $rojo;
+                font-size: 2rem;
                 font-weight: bold;
                 margin: 20px;
+                text-align: center;
             }
-        }
+            .presentacion {
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                gap: 20px;
 
-    }
-    section{
-        .presentacion{
-            display: flex;
-            align-items: center;
-            padding: 20px;
-        }
-        p{
-        color: $rojo;
-        font-size: 2rem;
-        }
-        .logo-texto-index{
-            width: 120px;
-            height: auto;
-        }
-    }
-    section{
-        h2{
-            color:$rojo;
-            font-size: 3rem;
-            .lo-mas-vendido{
+                p{
+                    color: $rojo;
+                    font-size: 2rem;
+                    flex: 1;
+                }
+            }
+            .logo-texto-index{
+                width: 120px;
+                height: auto;
+            }          
+            .lo-mas-vendido {
+                color: $rojo;
+                font-size: 3rem;
                 text-align: center;
                 margin: 30px 0;
-            } 
-        }
-        div{
+            }
             .libros{
                 display: flex;
                 justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 20px;
             }
-            div{
-                h3{
+            .libros div {
+                text-align: center;
+                max-width: 200px;
+            }
+
+            .libros h3 {
                 font-size: 2.5rem;
-                    p{
-                        color: $rojo;
-                        font-size: 2rem;
-                    }
-                    img{
-                        width: 300px;
-                        height: auto;
-                        }
-                }
+                text-align: center;
             }
-        }
+
+            .libros p {
+                color: $rojo;
+                font-size: 2rem;
+            }
+
+            .libros img {
+                width: 100%;
+                height: auto;
+                max-width: 200px;
+                border-radius: 8px;
+            }
+
     }
 }
+
