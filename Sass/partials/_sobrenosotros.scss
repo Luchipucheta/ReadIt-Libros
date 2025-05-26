@@ -86,3 +86,62 @@ img {
     box-shadow: -1px 8px 42px 0px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .contenedor-grid {
+    grid-template-areas: 
+      "titulo"
+      "img1"
+      "texto1"
+      "img2"
+      "texto2"
+      "img3"
+      "texto3";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .contenedor-grid img,
+  .contenedor-grid p,
+  .contenedor-grid h1 {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  h1.grid-titulo {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+.animacion{
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+    animation-name: brillito;
+    animation-iteration-count: 3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+} 
+
+@keyframes brillito{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: lightblue;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: aquamarine;
+    }
+    100%{
+        color: blueviolet;
+    }
+
+}

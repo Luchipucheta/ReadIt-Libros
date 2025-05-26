@@ -8,11 +8,32 @@ header{
     .navbar{
         width: 60%;
         margin-right: 10px;
-    }
-    .navbar ul {
-        display: flex;
-        padding: 0;
-        margin: 0;
+        ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            justify-content: space-between;
+            height: 100%;
+            align-items: center;
+        }
+
+        li {
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 15px 20px;
+            color: $beige;   
+
+            &:hover {
+                color: $rojo; 
+            }
+        }  
     }
     header ul{
     display: flex;
@@ -46,6 +67,7 @@ header{
     .logo{
         width: 60px;
         margin: 5px;
+        height: auto;
     }
 }
 
@@ -66,6 +88,12 @@ footer{
             height: auto;
         }
     }
+    img{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+
     a img.logo-wsp{
         width: 50px;
         position: fixed;

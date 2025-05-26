@@ -3,4 +3,13 @@ $beige: #EAD196;
 $rojo: #BF3131;
 $marron: #7D0A0A;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
